@@ -15,6 +15,7 @@ body {
 
 .buttons {
     width: 300px;
+    margin-top: 20px;
 }
 
 button {
@@ -26,6 +27,7 @@ button {
     height: 60px;
     border-radius: 30px;
     margin: 5px;
+    
 }
 
 .span {
@@ -59,4 +61,15 @@ button:hover {
 
 .operator:hover {
     background-color: rgb(228, 168, 47);
+}
+
+body {
+    background-color: yellow;
+}
+
+footer{
+    text-align: center;
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: 800;
 }
