@@ -36,19 +36,27 @@ button {
 
 }
 
-.result .previous_input {
-    width: 264px;
+.result {
+    width: 240px;
+    height: 70px;
     color: white;
     padding: 12px;
     font-size: 30px;
-    text-align: end;
+    text-align: end;  
+    overflow-x: scroll;
+  
+
 }
 
 
-.result .current_input {
-    width: 264px;
-    color: white;
-    padding: 12px;
-    font-size: 30px;
-    text-align: end;
+button:hover {
+   background-color:rgb(143, 141, 141);;
+}
+
+.operator {
+    background-color: rgb(255, 170, 0);
+}
+
+.operator:hover {
+    background-color: rgb(228, 168, 47);
 }
