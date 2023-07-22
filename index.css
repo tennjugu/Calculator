@@ -1,0 +1,95 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#ffffff40;
+}
+
+.container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.buttons {
+    width: 300px;
+    margin-top: 20px;
+}
+
+button {
+    background-color:rgb(100, 96, 96);
+    border: none;
+    color:white;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 5px;
+    
+}
+
+.span {
+    width: 130px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 6.5px;
+
+}
+
+.result {
+    width: 275px;
+    height: 70px;
+    color: white;
+    background-color: #ffffff40;
+    padding: 12px;
+    font-size: 30px;
+    text-align: end;  
+    overflow: overlay;
+}
+
+.result::-webkit-scrollbar {
+    display: block;
+    width: 10px;
+}
+
+.result::-webkit-scrollbar-button {
+    display:none;
+}
+
+.result::-webkit-scrollbar-track {
+    background-color: #00000000;
+}
+
+.result::-webkit-scrollbar-track-piece {
+    background-color: #00000000;
+}
+
+.result::-webkit-scrollbar-thumb {
+    background-color: #00000040;
+    border: 1px solid #ffffff40;
+    border-radius: 20px;
+}
+
+
+
+button:hover {
+   background-color:rgb(143, 141, 141);;
+}
+
+.operator {
+    background-color: rgb(255, 170, 0);
+}
+
+.operator:hover {
+    background-color: rgb(228, 168, 47);
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: 800;
+}
