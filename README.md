@@ -1,6 +1,6 @@
 # Calculator
 
-![Calculator Screenshot](screenshot.png)
+![Calculator Screenshot](Calculator.png)
 
 ## Description
 
